@@ -44,6 +44,7 @@ jspm_packages/
 .astro/
 .husky/
 .vscode/
+.frontmatter/
 
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
