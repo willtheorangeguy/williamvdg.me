@@ -78,7 +78,7 @@ export default (post: CollectionEntry<"blog">) => {
                                     color: "transparent",
                                 }}
                             >
-                                "
+                                &quot;
                             </span>
                             <span
                                 style={{

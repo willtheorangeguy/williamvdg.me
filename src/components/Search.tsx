@@ -50,8 +50,10 @@ export default function SearchBar({ searchList }: Props) {
 
         // put focus cursor at the end of the string
         setTimeout(function () {
-            inputRef.current!.selectionStart = inputRef.current!.selectionEnd =
-                searchStr?.length || 0;
+            if (inputRef && inputRef.current) {
+                inputRef.current!.selectionStart = inputRef.current!.selectionEnd =
+                searchStr?.length ?? 0;
+              }
         }, 50);
     }, []);
 
@@ -102,7 +104,7 @@ export default function SearchBar({ searchList }: Props) {
                     {searchResults?.length && searchResults?.length === 1
                         ? " result"
                         : " results"}{" "}
-                    for '{inputVal}'
+                    for &apos;{inputVal}&apos;
                 </div>
             )}
 
