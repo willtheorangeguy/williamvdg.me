@@ -29,7 +29,7 @@
     "zod": "3.23.6"
   },
   "devDependencies": {
-    "@astrojs/react": "^3.3.2",
+    "@astrojs/react": "^3.3.4",
     "@astrojs/sitemap": "^3.1.4",
     "@astrojs/tailwind": "^5.1.0",
     "@divriots/jampack": "^0.24.0",
